@@ -33,8 +33,8 @@ console.log('Todas as propriedades do objeto userName:', Reflect.ownKeys(userNam
 
 // Criar um enum
 const direction = {
-    UP: Symbol('UP');
-    DOWN: Symbol('DOWN');
-    LEFT: Symbol('LEFT');
-    RIGHT: Symbol('RIGHT');
+    UP: Symbol('UP'),
+    DOWN: Symbol('DOWN'),
+    LEFT: Symbol('LEFT'),
+    RIGHT: Symbol('RIGHT')
 }
