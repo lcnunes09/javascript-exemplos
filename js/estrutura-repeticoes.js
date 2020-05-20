@@ -16,3 +16,14 @@ for (let i in arr) {
 for (let i of arr) {
     console.log(i);
 }
+
+
+const filmes = ['Meia-noite em Paris', 'Machete', 'Taxi Driver', 'Matrix'];
+
+for (let filme of filmes) {
+    console.log(filme);
+}
+
+const filosofo = "Sócrates";
+filosofo.replace("Hipó", "Só");
+console.log(filosofo);
