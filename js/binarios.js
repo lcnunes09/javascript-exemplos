@@ -3,8 +3,7 @@ var arvores = new Array("pau-brasil", "loureiro", "cedro", "carvalho", "sicômor
 0 in arvores;
 3 in arvores;
 6 in arvores;
-console.log("cedro" in arvores);
-console.log("cedro" in arvores[2]);
+"cedro" in arvores;
 "lenght" in arvores;
 
 "PI" in Math;
