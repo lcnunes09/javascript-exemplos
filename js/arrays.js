@@ -1,3 +1,54 @@
+const persons = Array.of('John', 'Cris', 'Jenny');
+const personsList = Array('John', 'Cris', 'Jenny');
+
+// Pegando elementos divs
+const divs = document.querySelectorAll('div'); // Node List
+const divArray = Array.from(divs); // Array
+
+// push (Adiciona na última posição e retorna tamanho do array)
+// pop (Remove último elemento e retorna quem removeu)
+// unshift (Adiciona na primeira posição e retorna tamanho do array)
+// shift (Remove primeiro elemento e retorna quem removeu)
+// concat (Concatena os Arrays)
+// slice (Retorna um novo array fatiando o array de acordo com início e fim)
+// splice (Altera um array adicionando novos elementos enquanto remove elementos antigos)
+
+const frutas = ['banana', 'maçã'];
+frutas.shit();
+
+const salgados = ['coxinha'];
+
+const alimentos = frutas.concat(salgados);
+alimentos.slice(-1);
+
+salgados.splice(2);
+salgados.splice(1, 0, "empada"); // na posição 1, 0 itens removidos, acrescenta empada
+
+// forEach
+// map
+// flat
+// flatMap
+// keys
+// values
+// entries
+// find
+// findIndex
+// filter
+// indexOf
+// lastIndexOf
+// includes
+// some - ver se tem algum elemento que está na condição (exemplo: tem algum elemento par?)
+// every - todos os itens satisfazem uma condição 
+// sort - ordenar
+// reverse - inverter a ordem do array
+// join - transformar array em outro tipo de dado: junta tudo 
+// reduce - para cada item do array, realiza uma função e junta os valores, por exemplo, valor total somando todos os itens do array ou tirando a média
+
+const frutasNovas = ['banana', 'maçã', 'laranja', 'mamão', 'melancia'];
+const frutasNovasIterator = frutasNovas.entries();
+
+frutasNovasIterator.next();
+
 const users = ['Luciana', 'Renata', 'Rita', 'Leandro'];
 
 const gender = {
