@@ -1,0 +1,15 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "iniciando com tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha testes/findCrushListTest.js"
+  },
+  "author": "Luciana Nunes",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^7.2.0",
+    "should": "^13.2.3"
+  }
+}
